@@ -247,3 +247,31 @@ footer {
     box-shadow: 0 10px 20px rgba(242, 78, 30, 0.3);
     transform: translateY(-5px);
 }
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-contact {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 2px solid #a855f7;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background: rgba(168, 85, 247, 0.1);
+    border-color: #60a5fa;
+    transform: translateY(-3px);
+}
+
+/* Mempertegas teks deskripsi */
+strong {
+    color: #60a5fa;
+}
